@@ -75,3 +75,15 @@
 .ex-8-img {
   transition: 2s;
 }
+
+/* Esercizio 9 */
+
+.ex-9-img:hover {
+  filter: sepia(0.7);
+  transform: scale(1.5);
+  border-radius: 30px;
+}
+
+.ex-9-img {
+  transition: 2s;
+}
