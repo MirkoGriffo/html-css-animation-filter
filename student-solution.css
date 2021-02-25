@@ -64,3 +64,14 @@
 .ex-7-img {
   transition: 2s;
 }
+
+/* Esercizio 8 */
+
+.ex-8-img:hover {
+  filter: sepia(0.7);
+  border-radius: 40px;
+}
+
+.ex-8-img {
+  transition: 2s;
+}
