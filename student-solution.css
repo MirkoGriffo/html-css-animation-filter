@@ -87,3 +87,20 @@
 .ex-9-img {
   transition: 2s;
 }
+
+/* Esercizio 10 */
+
+.ex-10-icon {
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(360deg);
+    }
+    to { 
+        transform: rotate(0deg);
+    }
