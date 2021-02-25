@@ -91,16 +91,37 @@
 /* Esercizio 10 */
 
 .ex-10-icon {
-    animation-name: rotate;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+  animation-name: ruota-antiorario;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
-@keyframes rotate {
-    from {
-        transform: rotate(360deg);
-    }
-    to { 
-        transform: rotate(0deg);
-    }
+@keyframes ruota-antiorario {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+/* Esercizio 11 */
+
+.ex-11-icon:hover {
+  animation-name: ruota-orario;
+  animation-duration: 2s;
+}
+
+@keyframes ruota-orario {
+  0% {
+    transform: rotate(0deg);
+  }
+  90% {
+    transform: rotate(270deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
